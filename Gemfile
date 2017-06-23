@@ -35,5 +35,6 @@ group :production do
   gem 'rails_12factor'
 end
 
+gem 'friendly_id', '~> 5.2', '>= 5.2.1'
 gem 'nokogiri', '~> 1.7', '>= 1.7.2'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
