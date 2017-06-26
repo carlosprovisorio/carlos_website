@@ -35,6 +35,7 @@ group :production do
   gem 'rails_12factor'
 end
 
+gem 'mail_form', '~> 1.6'
 gem 'will_paginate', '~> 3.1', '>= 3.1.6'
 gem 'friendly_id', '~> 5.2', '>= 5.2.1'
 gem 'nokogiri', '~> 1.7', '>= 1.7.2'
